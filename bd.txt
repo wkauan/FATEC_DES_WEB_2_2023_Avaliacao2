@@ -1,0 +1,7 @@
+CREATE TABLE candidato {
+	candidatoID INT NOT NULL,
+	nome VARCHAR(255) NOT NULL,
+	dados VARCHAR(255) NOT NULL,
+	telefone VARCHAR(255) NOT NULL,
+	PRIMARY KEY (candidatoID)
+};
