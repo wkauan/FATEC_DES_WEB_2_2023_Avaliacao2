@@ -8,9 +8,9 @@ Para replicar este projeto utilizando o XAMPP, siga as instruções abaixo:
     
     Importe o arquivo .SQL (que deve ser enviado juntamente com o código) para o banco de dados que acabou de criar.
     
-    Abra o arquivo "config.php" localizado na pasta "inc".
+    Abra o arquivo "DBConnect.php".
     
-    Edite as variáveis "$db_host", "$db_user" e "$db_pass" de acordo com as configurações do seu SGBD MySQL.
+    Edite as variáveis "$username" e "$dbname" de acordo com as configurações do seu SGBD MySQL.
     
     Abra um navegador e acesse o projeto no endereço "http://localhost/nome_da_pasta_do_projeto".
 
