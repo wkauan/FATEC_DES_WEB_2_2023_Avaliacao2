@@ -4,7 +4,7 @@ Para replicar este projeto utilizando o XAMPP, siga as instruções abaixo:
     
     Baixe ou clone o projeto na pasta "htdocs" do XAMPP.
     
-    Crie um banco de dados MySQL chamado "vestibular" através do phpMyAdmin acessível pelo link "http://localhost/phpmyadmin/".
+    Acesse: "http://localhost/phpmyadmin/".
     
     Importe o arquivo .SQL (que deve ser enviado juntamente com o código) para o banco de dados que acabou de criar.
     
@@ -20,4 +20,4 @@ Para utilizar o CRUD de candidatos, utilize as seguintes instruções:
     
     Para deletar os dados de um candidato, preencha o campo id com o id do candidato e clique em "Deletar".
 
-Lembre-se de enviar o arquivo .SQL com o dump do MySQL para que o projeto funcione corretamente. Este arquivo deve ser importado para o banco de dados "vestibular" criado anteriormente.
+Lembre-se de enviar o arquivo .SQL com o dump do MySQL para que o projeto funcione corretamente. Este arquivo deve ser importado para o "http://localhost/phpmyadmin/".
