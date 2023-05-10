@@ -15,13 +15,9 @@ Para replicar este projeto utilizando o XAMPP, siga as instruções abaixo:
     Abra um navegador e acesse o projeto no endereço "http://localhost/nome_da_pasta_do_projeto".
 
 Para utilizar o CRUD de candidatos, utilize as seguintes instruções:
-
-    Para cadastrar um novo candidato, clique no botão "Novo Candidato" na página principal e preencha os campos obrigatórios do formulário. Clique em "Salvar" para finalizar o cadastro.
+      
+    Para editar os dados de um candidato, preencha os campos desejados e clique em "Atualizar". 
     
-    Para visualizar os candidatos cadastrados, clique no botão "Candidatos Cadastrados" na página principal. Será exibida uma tabela com os dados de todos os candidatos.
-    
-    Para editar os dados de um candidato, clique no botão "Editar" na linha correspondente ao candidato desejado na tabela de candidatos cadastrados. Preencha os campos desejados e clique em "Salvar".
-    
-    Para excluir um candidato, clique no botão "Excluir" na linha correspondente ao candidato desejado na tabela de candidatos cadastrados. Será exibida uma mensagem de confirmação antes da exclusão definitiva.
+    Para deletar os dados de um candidato, preencha o campo id com o id do candidato e clique em "Deletar".
 
 Lembre-se de enviar o arquivo .SQL com o dump do MySQL para que o projeto funcione corretamente. Este arquivo deve ser importado para o banco de dados "vestibular" criado anteriormente.
